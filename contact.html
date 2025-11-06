@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <header class="inside-header">
+            <div class="logo">
+                <a href="#"><img src="My images/logo.jpg" alt=""></a>
+            </div>
+        <nav class="navmenu">
+            <ul type="none">
+                <li><a href="index.html" class="navlink">Home</a></li>
+                <li><a href="contact.html" class="navlink">Contact</a></li>
+                <li><a href="Destination.html" class="navlink">Destinations</a></li>
+                <li><a href="hotel.html" class="navlink">Hotels</a></li>
+                <li><a href="login.html" target="_blank" class="navlink" id="navlogin">Login</a></li> 
+            </ul>
+        </nav>
+        </header>
+    </header>
+    <div class="contact-container">
+     <form action="https://api.web3forms.com/submit" method="POST"" class="contact-left">
+     <div class="contact-left-title">
+      <h2>Get in touch</h2>
+        <hr>
+     </div>
+     <input type="hidden" name="access_key" value="a7eae404-55de-4772-9807-600b011b3a25">
+     <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+     <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+     <textarea name="message" placeholder="Your message" class="contact-inputs" required></textarea>
+     <button type="submit">Submit</button>
+    </form>
+    <div class="contact-right">
+        <img src="assets/right_img.png" alt="">
+    </div>
+</body>
+</html>
