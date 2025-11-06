@@ -5,7 +5,6 @@ A multi-page responsive travel website built with **HTML** and **CSS**, featurin
 ## Features
 - Multi-page structure (Home, Destinations, Hotels, Contact, Login)
 - Responsive layout and hero sections
-- CSS animations and transitions
 - Connected pages and navigation
 
 ## Tech
